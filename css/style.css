@@ -63,5 +63,20 @@ input[type="email"]{
     text-align: center;
 }
 .card-header{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.card-header{
     background-color: #ddd;
+}
+#select-btn{
+    background-color: var(--button-color);
+    border-color: var(--button-color);
+    color: #000;
+    font-size: 1.1em;
+    width: 50%;
+}
+#select-btn:hover{
+    background-color: var(--icons-color);
+    transition: 2s;
 }
