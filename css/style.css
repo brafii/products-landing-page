@@ -6,6 +6,10 @@
 body{
     background-color: var(--general-color);
 }
+i{
+    font-size: 3.0em;
+    color: var(--icons-color);
+}
 #header-img{
     width: 25%;
 }
@@ -39,4 +43,7 @@ input[type="email"]{
 #submit:hover{
     background-color: var(--icons-color);
     transition: 3s;
+}
+.section-content{
+    margin-top: 90px;
 }
