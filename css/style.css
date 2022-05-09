@@ -44,7 +44,7 @@ input[type="email"]{
     background-color: var(--icons-color);
     transition: 3s;
 }
-.section-content{
+.section-content, .prices{
     width: 75%;
     margin: auto;
     margin-top: 90px;
@@ -56,4 +56,9 @@ input[type="email"]{
 .center-video > iframe {
     max-width: 560px;
     width: 100%;
+}
+.card{
+    background-color: transparent;
+    border-color: #000;
+    text-align: center;
 }
