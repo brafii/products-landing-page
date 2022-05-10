@@ -44,10 +44,10 @@ input[type="email"]{
     background-color: var(--icons-color);
     transition: 3s;
 }
-.section-content, .prices{
+.section-content, .prices, .footer{
     width: 75%;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 80px;
 }
 .center-video{
     text-align: center;
@@ -79,4 +79,8 @@ input[type="email"]{
 #select-btn:hover{
     background-color: var(--icons-color);
     transition: 2s;
+}
+.footer{
+    background-color: #ddd;
+    padding: 20px;
 }
