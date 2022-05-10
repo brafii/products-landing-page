@@ -84,6 +84,10 @@ input[type="email"]{
     background-color: #ddd;
     padding: 10px;
 }
+.footer p{
+    color: #444;
+    font-size: .9em;
+}
 .footer ul{
     display: flex;
     margin: 0;
@@ -96,4 +100,5 @@ input[type="email"]{
 .footer ul li a{
     text-decoration: none;
     color: #000;
+    font-weight: 500;
 }
