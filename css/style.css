@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
 :root{
     --general-color: #eee;
     --button-color: #f1c40f;
@@ -5,6 +7,7 @@
 }
 body{
     background-color: var(--general-color);
+    font-family: 'Lato', sans-serif;
 }
 i{
     font-size: 3.0em;
@@ -90,6 +93,7 @@ input[type="email"]{
 }
 .footer ul{
     display: flex;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
 }
